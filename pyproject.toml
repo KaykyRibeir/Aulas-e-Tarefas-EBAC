@@ -12,6 +12,7 @@ readme = "README.md"
 python = ">=3.14"
 fastapi = {extras = ["standard"], version = ">=0.129.0,<0.130.0"}
 pytest = "^9.0.3"
+pytest-cov = "^7.1.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
